@@ -1,0 +1,28 @@
+export const SignupSelectors = {
+    form: {
+      heading: 'h2.title.text-center',
+      titleMr: '#id_gender1',
+      titleMrs: '#id_gender2',
+      password: '#password',
+      days: '#days',
+      months: '#months',
+      years: '#years',
+      newsletter: '#newsletter',
+      optIn: '#optin',
+      firstName: '#first_name',
+      lastName: '#last_name',
+      company: '#company',
+      address1: '#address1',
+      address2: '#address2',
+      country: '#country',
+      state: '#state',
+      city: '#city',
+      zipcode: '#zipcode',
+      mobileNumber: '#mobile_number',
+      createAccountButton: '[data-qa="create-account"]',
+    },
+    accountCreated: {
+      heading: 'h2[data-qa="account-created"]',
+      continueButton: '[data-qa="continue-button"]',
+    },
+  };
